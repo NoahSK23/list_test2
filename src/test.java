@@ -30,13 +30,15 @@ public class test {
 
         System.out.println("Array list: " + list);
         t.arrayListTest(list);
+        System.out.println("Array list: " + list);
 
         Stack<String> stack = new Stack<>();
-        stack.push("pancake 1");
-        stack.push("pancake 2");
-        stack.push("pancake 3");
-        stack.push("pancake 4");
-        stack.pop();
+        stack.push("Kobayashi");
+        stack.push("Tohru");
+        stack.push("Kanna");
+        stack.push("Elma");
+        stack.push("Fafnir");
+        stack.push("Lucuoa");
         System.out.println("Stack: " + stack);
 
         Hashtable<Integer, String> h = new Hashtable<>();
