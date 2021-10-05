@@ -50,8 +50,8 @@ public class test {
 
         double vsum = 0.0;
 
-        for (int i = 0; i < v.size(); i++) {
-            vsum += v.get(i);
+        for (Double aDouble : v) {
+            vsum += aDouble;
         }
         System.out.println("Vector: " + v);
         System.out.println("Sum of vector: " + vsum);
