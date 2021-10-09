@@ -57,5 +57,13 @@ public class test {
         }
         System.out.println("Vector: " + v);
         System.out.println("Sum of vector: " + vsum);
+
+        System.out.println("This was me learning about data structures that really don't do anything. I think you're" +
+                " supposed to do algorithms and stuff with it. Maybe I try to do some sorting algorithms now?");
+        //found a quick sort on Google (I have no idea how it works)
+        Integer arrList[] = new Integer[list.size()];
+        arrList = list.toArray(arrList);
+        sort.quickSort(arrList, 0, list.size() - 1);
+        System.out.println(Arrays.toString(arrList)); //yes... it worked (yay!!) wonder if I can add a method for arrlist... TODOoo????
     }
 }
